@@ -9,19 +9,83 @@
 </head>
 <body>
     <header>
+        <!-- Navbar -->
         <nav class="flex justify-between items-center  py-4 px-8 shadow-sm">
             <img class="w-14" src="/assets/logo.png" alt="logo">
-            <div class="flex gap-10">
+            <div class="flex gap-10 grow justify-center ">
                 <a class="flex gap-1 uppercase text-xs font-medium text-neutral-600 hover:text-neutral-800 transition-all duration-75 ease-in-out" href="#">Products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-3"><path d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z"></path></svg></a>
                 <a class="uppercase text-xs font-medium text-neutral-600 hover:text-neutral-800 transition-all duration-75 ease-in-out" href="#">Gallery</a>
                 <a class="uppercase text-xs font-medium text-neutral-600 hover:text-neutral-800 transition-all duration-75 ease-in-out" href="#">Contact</a>
             </div>
             <div>
-                <button class="transition-all duration-300 ease-in-out uppercase text-xs bg-slate-50 font-medium text-neutral-700 px-6 py-3 rounded-md hover:bg-slate-100 hover:text-neutral-600 mx-3">Log in</button>
+                <button class="transition-all duration-300 ease-in-out uppercase text-xs bg-slate-50 font-medium text-neutral-700 px-6 py-3 rounded-md hover:bg-slate-100 hover:text-neutral-600 mx-2">Log in</button>
                 <button class="transition-all duration-300 ease-in-out uppercase text-xs bg-neutral-700 text-slate-50 px-6 py-3 rounded-md align-middle hover:bg-neutral-600">Sign up</button>
             </div>
         </nav>
+        <!-- Intro -->
+        <section class="flex justify-center ">
+            <div class="flex flex-col py-16 pl-20 h-fit ">
+                <h1 class=" uppercase text-7xl text-neutral-700 font-extralight ">Let's ride</h1>
+                <h1 class=" uppercase text-7xl text-neutral-700 font-semibold">The Future.</h1>
+                <div class="w-2/4">
+                    <hr class="h-1  bg-neutral-600 rounded-lg border-none mt-16 mb-10">
+                    <p class=" mb-10 text-lg text-neutral-700">Simple and sleek design with users in mind.</p>
+                </div>
+                <div class="flex gap-20">
+                    <div class="flex items-center gap-3">
+                        <svg class="px-2 py-2 h-10 bg-neutral-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 13H4V11H12V4L20 12L12 20V13Z" fill="rgba(255,255,255,1)"></path></svg>
+                        <h3 class="text-neutral-900 font-medium">Buy now</h3>
+                    </div>
+                    <div class="flex gap-2">
+                        <span class="w-[30%] font-medium text-neutral-600">Watch our video how it works</span>
+                        <img class="w-16 h-16" src="/assets/header play button.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col px-10 h-fit gap-0">
+                <img class="h-[580px]  " src="/assets/header image.png" alt="">
+                <div class="flex justify-end items-center gap-5 px-10">
+                    <img class="h-20 font-bold " src="/assets/01.png" alt="">
+                    <div class="flex">
+                        <svg class="h-10 py-2 px-5 border border-neutral-900 rounded-l-2xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.8284 12.0007L15.7782 16.9504L14.364 18.3646L8 12.0007L14.364 5.63672L15.7782 7.05093L10.8284 12.0007Z"></path></svg>
+                        <svg class="h-10 py-2 px-5 border border-neutral-900 rounded-r-2xl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.1714 12.0007L8.22168 7.05093L9.63589 5.63672L15.9999 12.0007L9.63589 18.3646L8.22168 16.9504L13.1714 12.0007Z"></path></svg>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Specification -->
+        <section class="flex justify-around my-5">
+            <div class="flex flex-col items-center rounded-md shadow-md  w-36  py-4">
+                <div class="flex items-baseline gap-1 text-neutral-700 font-bold"><h2 class="text-4xl">105</h2> <span>lbs</span></div>
+                <span class="text-xs my-3">Net Weight</span>
+            </div>
+            <div class="flex flex-col items-center rounded-md shadow-md  w-36  py-4">
+                <div class="flex items-baseline gap-1 text-neutral-700 font-bold"><h2 class="text-4xl">26</h2> <span>mph</span></div>
+                <span class="text-xs my-3">Top Speed</span>
+            </div>
+            <div class="flex flex-col items-center rounded-md shadow-md  w-36  py-4">
+                <div class="flex items-baseline gap-1 text-neutral-700 font-bold"><h2 class="text-4xl">38</h2> <span>miles</span></div>
+                <span class="text-xs my-3">Max Range</span>
+            </div>
+            <div class="flex flex-col items-center rounded-md shadow-md  w-36  py-4">
+                <div class="flex items-baseline gap-1 text-neutral-700 font-bold"><h2 class="text-4xl">89</h2> <span>nn</span></div>
+                <span class="text-xs my-3">Max Torques</span>
+            </div>
+            <div class="flex flex-col items-center rounded-md shadow-md  w-36  py-4">
+                <div class="flex items-baseline gap-1 text-neutral-700 font-bold"><h2 class="text-4xl">22%</h2> <span>slope</span></div>
+                <span class="text-xs my-3">Hill Climbing</span>
+            </div>
+            <div class="flex flex-col items-center rounded-md shadow-md  w-36  py-4">
+                <div class="flex items-baseline gap-1 text-neutral-700 font-bold"><h2 class="text-4xl">2x</h2></div>
+                <span class="text-xs my-3">Hydralic Disc Break</span>
+            </div>
+        </section>
+
     </header>
+    <main>
+        
+    </main>
     
 </body>
 </html>
