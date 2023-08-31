@@ -1,5 +1,5 @@
 
-# Project Title
+# E-Bike(Bike landing page)
 
 * This is a Bike Landing-Page using HTML and Tailwind CSS for practice Tailwind CSS.
 
